@@ -1,0 +1,24 @@
+@@ -0,0 +1,23 @@
+public class ProgramJavaScanner {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner Zidane = new Scanner(System.in);
+
+        System.out.print("Berat badan saya=");
+        double Beratbadan = Zidane.nextDouble();
+
+        System.out.print("Umur saya=");
+        int Umur = Zidane.nextInt();
+
+        System.out.print("Nama Saya=");
+        String Namasaya = Zidane.next();
+
+        System.out.println(" Nama Saya " + Namasaya + ", " + " Berat badan saya " + Beratbadan + " Kg" + " dan"  + " Umur saya " + Umur + " tahun"   );
+
+
+    }
+
+}
